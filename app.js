@@ -1,16 +1,20 @@
-var listItem = document.createElement('li');
+document.body.onload = changeListItem;
 
-var ul = document.getElementsByClassName('list');
+function changeText() {
+  let el = document.getElementById('about');
+  el.innerText = "About Kim Schlesinger"
+};
+
+function changeListItem() {
+  let el = document.getElementsByClassName('list');
+  console.log(el[0].children);
+};
 
 
+function addElement() {
+  var newParagraph = document.createElement('p');
+  var newText = document.createTextNode('Howdy, g59!');
 
-//FROM MDN: https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement 
-  // create a new div element
-  // and give it some content
-  var newDiv = document.createElement("div");
-  var newContent = document.createTextNode("Hi there and greetings!");
-  newDiv.appendChild(newContent); //add the text node to the newly created div.
-
-  // add the newly created element and its content into the DOM
-  var currentDiv = document.getElementById("div1");
-  document.body.insertBefore(newDiv, currentDiv);
+  newParagraph.appendChild(newText)
+  document.getElementById('greeting').appendChild(newParagraph);
+}
