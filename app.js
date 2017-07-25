@@ -20,45 +20,6 @@ function addElement() {
   document.getElementById('greeting').appendChild(newParagraph)
 };
 
-function sayThoughtsAloud() {
-  console.log('HEY! I am testing out a new feature.');
+function beWorried() {
+  console.log('OH NOES.');
 }
-
-console.log('MERGE IT');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function changeText() {
-//   let el = document.getElementById('about');
-//   el.innerText = "About Kim Schlesinger"
-// };
-//
-// function changeListItem() {
-//   let el = document.getElementsByClassName('list');
-//   el[0].children[0].innerText = "HIIII"
-// };
-//
-// function addElement() {
-//   var newParagraph = document.createElement('p');
-//   var newText = document.createTextNode('Howdy, g59!');
-//
-//   newParagraph.appendChild(newText)
-//   document.getElementById('greeting').appendChild(newParagraph);
-// };
