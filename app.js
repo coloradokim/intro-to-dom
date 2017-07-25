@@ -20,11 +20,11 @@ function addElement() {
   document.getElementById('greeting').appendChild(newParagraph)
 };
 
-
 function sayThoughtsAloud() {
   console.log('HEY! I am testing out a new feature.');
-
 }
+
+console.log('MERGE IT');
 
 
 
