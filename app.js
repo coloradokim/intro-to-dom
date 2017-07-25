@@ -20,6 +20,8 @@ function addElement() {
   document.getElementById('greeting').appendChild(newParagraph)
 };
 
-function sayHi() {
-  console.log('HIIIIIIIIYA!');
+
+function sayHello() {
+  console.log('Hiiiiiiii!!');
+
 }
