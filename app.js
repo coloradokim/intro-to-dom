@@ -21,6 +21,12 @@ function addElement() {
 };
 
 
+function sayThoughtsAloud() {
+  console.log('HEY! I am testing out a new feature.');
+
+}
+
+
 
 
 
