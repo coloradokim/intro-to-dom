@@ -19,3 +19,7 @@ function addElement() {
 
   document.getElementById('greeting').appendChild(newParagraph)
 };
+
+function sayHi() {
+  console.log('HIIIIIIIIYA!');
+}
