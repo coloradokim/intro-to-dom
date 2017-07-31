@@ -20,6 +20,6 @@ function addElement() {
   document.getElementById('greeting').appendChild(newParagraph)
 };
 
-function causeConflict(message) {
- return `Oh my gawd. Look at this ${message}`
-};
+function pleadAway() {
+  console.log('please work. let's check this out);
+}
