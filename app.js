@@ -21,6 +21,8 @@ function addElement() {
 };
 
 function pleadAway() {
-  console.log(`please work. let's check this out`);
-  return `it is working`
+  console.log(`please work. let's check this out. create a conflict`);
+  return `it is not working`
 };
+
+console.log('hiiiiii);
