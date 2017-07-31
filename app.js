@@ -20,4 +20,7 @@ function addElement() {
   document.getElementById('greeting').appendChild(newParagraph)
 };
 
-console.log('Look, Ma! A merge conflict!');
+function causeConflict () {
+ return 'Look at this merge conflict' 
+  
+};
