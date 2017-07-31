@@ -25,4 +25,4 @@ function pleadAway() {
   return `it is not working`
 };
 
-console.log('hiiiiii);
+console.log('hiiiiii');
